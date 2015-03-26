@@ -13,3 +13,6 @@
   (package-initialize)
   (add-to-list 'package-archives
                '("melpa" . "http://melpa.milkbox.net/packages/") t))
+
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
